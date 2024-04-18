@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    padding: 10px;
+    background-color: #242424;
+}
+
+.header h2 {
+    color: #fff;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.header h4 {
+    color: #a3a3a3;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 20px;
+
+}
+
+/* Logo Header */ 
+
+#logoh {
+    color: #fff;
+    position:absolute; left: 800px; bottom: 500px;
+}
+
+/* Menu Header */ 
+
+.menu {
+    position:absolute; left:1350px; top: 60px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    margin-inline: 20px;
+}
+
+.menu li a{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Menu Buttons */ 
+
+#cbtn {
+    background-color: #454545;
+    border: 0px solid black;
+    border-radius: 690px;
+    padding: 14px;
+}
+
+#gbtn {
+    background-color: #454545;
+    border: 0px solid black;
+    border-radius: 690px;
+    padding: 14px;
+}
+
+#pbtn {
+    background-color: #454545;
+    border: 0px solid black;
+    border-radius: 999px;   
+    padding: 14px;
+}
+
+#cbtn a:hover {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 999px;   
+    color: black;
+    padding: 16px;
+    transition: 0.3s;
+}
+
+#gbtn a:hover {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 999px;   
+    color: black;
+    padding: 16px;
+    transition: 0.3s;
+}
+
+#pbtn a:hover {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 999px;  
+    padding: 16px;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Bio (Front Page) */ 
+
+.biography {
+    background-image:  linear-gradient(to top, rgba(16, 15, 15, 0.78), rgba(26, 25, 25, 0.85), rgba(46, 45, 45, 0.89)), url(../img/bgp.jpg);  
+    border-top: 3px solid black;
+    border-bottom: 4px solid black;
+    height: 365px;
+    background-size: cover;
+}
+
+#pb {
+    position: relative; left: 730px; bottom: 20px;
+    text-align: center;
+    width: 400px;
+    color: gray;
+    text-align: center;
+    line-height: normal;
+}
+
+#h3b {
+    height: 120px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative; top: 50px; right: 10px;
+    color: #fff;
+}
+
+.menu-title {
+    background-color: black;
+}
+
+.menu-title h2 {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 20px;
+    letter-spacing: 2px;
+    position: absolute; right: 820px; top: 530px;
+}
+
+#bioform {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff;
+    text-align: center;
+}
+
+/* Socials */
+
+.socials {
+    position: relative; top: 198px; left: 166px;
+}
+
+.github {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.reddit {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.twitter {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.github button {
+    border: none;
+    background: none;
+}
+
+.reddit button{ 
+    border: none;
+    background: none;
+}
+
+.twitter button {
+    border: none;
+    background: none;
+}
+
+.github button:hover {
+    padding-top: 20px;
+    transition: 0.4s;
+}
+
+.reddit button:hover {
+    padding-top: 20px;
+    transition: 0.4s;
+}
+
+.twitter button:hover {
+    padding-top: 20px;
+    transition: 0.4s;
+}
+
+.twitter button:hover::after {
+    padding-top: 20px;
+    transition: 0.4s;
+}
