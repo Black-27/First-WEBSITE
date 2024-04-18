@@ -204,3 +204,24 @@
     padding-top: 20px;
     transition: 0.4s;
 }
+
+.projects {
+    position: relative; top: 570px;
+    height: 225px;
+    background-color: #242424;
+}
+
+.projects .ptxt {
+    text-align: center;
+    position: relative; bottom: 236px;
+}
+
+.projects .ptxt h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #a3a3a3;
+}
+
+.projects .ptxt h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff;
+}
