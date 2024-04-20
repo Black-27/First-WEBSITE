@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    padding: 5px;
+    background-color: #242424;
+}
+
+.header img{
+    position: absolute;
+    margin-top: 0px;
+}
+
+.header button {
+    border: none;
+    background: none;
+}
+
+.header h2 {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.header h4 {
+    color: #a3a3a3;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 12px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+
+/* Menu Header */ 
+
+.menu {
+    position: relative; bottom: 110px; right: 20px;
+    display: flex;
+    justify-content: right;
+    height: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    margin-inline: 20px;
+}
+
+.menu li a{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Menu Buttons */ 
+
+#cbtn a{
+    background-color: #754ca8;
+    border: 0px solid black;
+    border-radius: 690px;
+    padding: 18px;
+    padding-inline: 22px;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+#gbtn a{
+    background-color: #454545;
+    border: 0px solid black;
+    border-radius: 690px;
+    padding: 14px;
+    transition: 0.5s;
+}
+
+#pbtn a{
+    background-color: #454545;
+    border: 0px solid black;
+    border-radius: 999px;   
+    padding: 14px;
+    transition: 0.5s;
+}
+
+#cbtn a:hover {
+    background-color: #4b316b;
+    border: 0px solid black;
+    border-radius: 999px;   
+    color: white;
+    transition: 0.5s;
+    padding: 14px;
+}
+
+#gbtn a:hover {
+    background-color: #754ca8;
+    border: 0px solid black;
+    border-radius: 999px;   
+    color: black;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#pbtn a:hover {
+    background-color: #754ca8;
+    border: 0px solid black;
+    border-radius: 999px;  
+    color: black;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+/* Bio (Front Page) */ 
+
+.biography {
+    background-image:  linear-gradient(to top, rgba(16, 15, 15, 0.70), rgba(26, 25, 25, 0.75), rgba(46, 45, 45, 0.80)), url(../img/html.png);  
+    border-top: 2px solid black;
+    height: 370px;
+    background-size: cover;
+}
+
+#pb {
+    position: relative; left: 730px; top: 0px;
+    text-align: center;
+    width: 400px;
+    color: gray;
+    text-align: center;
+    line-height: normal;
+    font-size: 20px;
+}
+
+#pb strong{
+    color: #9e9e9e;
+}
+
+#h3b {
+    height: 120px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative; top: 65px; right: 10px;
+    color: #fff;
+}
+
+#bioform {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff;
+    text-align: center;
+}
+
+/* Socials (Front Page) */
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    margin-left: 300px;
+    padding-bottom: 39px;
+}
+
+.menu-title h2 {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 25px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.reddit {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.twitter {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.github button {
+    transform: translateY(25px);
+    transition: 0.4s;
+    border: none;
+    background: none;
+}
+
+.reddit button { 
+    transform: translateY(25px);
+    transition: 0.4s;
+    border: none;
+    background: none;
+}
+
+.twitter button {
+    transform: translateY(25px);
+    transition: 0.4s;
+    border: none;
+    background: none;
+}
+
+.socials .github button:hover {
+    transform: translateY(0px);
+    padding-bottom: 20px;
+    opacity: 0.75;
+    transition: 0.4s;
+}
+
+.socials .reddit button:hover {
+    transform: translateY(0px);
+    padding-bottom: 20px;
+    opacity: 0.75;
+    transition: 0.4s;
+}
+
+.socials .twitter button:hover {
+    transform: translateY(0px);
+    padding-bottom: 20px;
+    opacity: 0.75;
+    transition: 0.4s;
+}
+
+/* Projects (Front Page) */
+
+.projects {
+    height: 1050px;
+    background-color: #242424;
+}
+
+.projects .ptxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.projects .ptxt h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #a3a3a3;
+}
+
+.projects .ptxt h2 {
+    margin-top: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff;
+}
+
+.projects .pimg {
+    padding-top: 70px;
+    text-align: center;
+    float: left;
+}
+
+.projects .pimg a button{
+    transform: translateY(25px);
+    transition: 0.6s;
+    border: none;
+    background: none;
+    margin: 14px;
+}
+
+.projects .pimg #pr4 {
+    margin-top: 50px;
+}
+
+.projects .pimg a button:hover {
+    transform: translateY(0px);
+    transition: 0.6s;
+}
+
+/* Projects TXT Headings (Front Page) */
+
+.projects .pimg .pitxt1 h3 {
+    font-size: 20px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: "Monaco", monospace;  
+    color: #9076b0;
+}
+
+.projects .pimg .pitxt2 h3 {
+    font-size: 20px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: "Monaco", monospace;  
+    color: #9076b0;
+}
+
+.projects .pimg .pitxt3 h3 {
+    font-size: 20px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: "Monaco", monospace;  
+    color: #9076b0;
+}
+
+.projects .pimg .pitxt4 h3 {
+    font-size: 20px;
+    padding-top: 7px;
+    text-transform: uppercase;
+    color: #9076b0;
+    font-family: "Monaco", monospace;  
+}
+
+/* Projects TXT Paragraphs (Front Page) */
+
+.projects .pimg .pitxt1 p {
+    font-size: 16px;
+    opacity: 0.5;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.projects .pimg .pitxt2 p {
+    font-size: 16px;
+    opacity: 0.5;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.projects .pimg .pitxt3 p {
+    font-size: 16px;
+    opacity: 0.5;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.projects .pimg .pitxt4 p {
+    font-size: 16px;
+    opacity: 0.5;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Developer (Front Page) */
+
+.devblock {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 30px;
+    width: 550px;
+    height: 600px;
+    position: absolute; right: 655px;
+    margin-top: 990px;
+}
+
+.devblock #fdev {
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 25px;  
+}
+
+.devblock img {
+    position: relative;
+    left: 236px;
+    top: 25px;
+}
+
+.devblock #fdp1 {
+    width: 300px;
+    position: relative; left: 120px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242424;
+}
+
+.devblock #fdp2 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #242424;
+}
+
+.devblock #langk {
+    margin-top: 50px;
+    text-align: center;
+    color: #754ca8;
+}
+
+.devblock #devtls {
+    margin-top: 50px;
+    text-align: center;
+    color: #754ca8;
+}
+
+.devblock ul {
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Collabs (Front Page) */
+
+.collab {
+    height: 380px;
+}
+
+.collab h4 {
+    margin-top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.collab h5 {
+    text-align: center;
+    margin-top: 20px;
+    color:#454545;
+}
+
+.collab a {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.collab a button {
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Monaco, monospace;
+    font-size: 20px;
+    border: 2px solid #9076b0;
+    border-radius: 999px;
+    background: none;
+    color: #754ca8;
+    transition: 0.4s;
+}
+
+.collab a button:hover {
+    color: #fff;
+    background: #754ca8;
+    padding: 16px;
+    transition: 0.4s;
+    border: 2px solid #614980;
+}
+
+/* Footer (Front Page) */
+
+.footer {
+    background-color: #242424;
+    height: 270px;
+}
+
+.footer1 {
+    background-color: #4b316b;
+    width: 1000px;
+    height: 200px;
+    position: absolute;  right: 430px; top: 3030px;
+    border: 0px solid black;
+    border-radius: 25px;
+}   
+
+.footer1 h3 {
+    margin-left: 40px;
+    margin-top: 75px;
+    text-align: left;
+    color: #fff;
+    font-family: Monaco,monospace;
+}
+
+.footer1 p {
+    position: relative; bottom: 58px;
+    margin-left: 390px;
+    text-align: center;
+    color: #9e9e9e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 400px;
+}
+
+.footer1 img {
+    position: absolute; left: 860px; top: 65px;
+}
